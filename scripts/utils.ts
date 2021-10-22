@@ -78,7 +78,7 @@ export function getFilesInDirectory(dir: string) {
  * Replaces all instances of the include directive with the contents of the specified file.
  * @param contents war3map.lua
  */
-export function processScriptIncludes(contents: string) {
+ export function processScriptIncludes(contents: string) {
   const regex = /include\(([^)]+)\)/gm;
   let matches;
   while ((matches = regex.exec(contents)) !== null) {
