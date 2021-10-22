@@ -1,1 +1,1 @@
-import './info'
+import './misc/index'
