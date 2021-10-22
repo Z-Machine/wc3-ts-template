@@ -6,7 +6,9 @@
     "baseUrl": "./src",
     "forceConsistentCasingInFileNames": true,
     "target": "ESNext",
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "moduleResolution": "classic",
     "paths": {
       "*": [
@@ -19,7 +21,10 @@
     },
     "plugins": [
       {
-        "transform": "war3-transformer"
+        "transform": "war3-transformer",
+        "mapDir": "D:/war3Projects/!war3-typescript/wc3-ts-template/maps/map.w3x",
+        "entryFile": "D:/war3Projects/!war3-typescript/wc3-ts-template/src/index.ts",
+        "outputDir": "D:/war3Projects/!war3-typescript/wc3-ts-template/dist/map.w3x"
       }
     ],
     "types": [
@@ -34,9 +39,11 @@
       "lua-types/core/os",
       "lua-types/special/5.3",
       "war3-types-strict/1.32.10"
-    ],
+    ]
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [],
   "tstl": {
     "luaTarget": "5.3",
