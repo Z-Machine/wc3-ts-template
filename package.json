@@ -4,13 +4,14 @@
   "description": "",
   "author": "TriggerHappy",
   "license": "MIT",
-  "main": "src/main.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "ts-node --transpile-only scripts/test.ts",
     "build": "ts-node --transpile-only scripts/build.ts",
     "dev": "npm-watch",
     "build:defs": "ts-node scripts/dev"
   },
+<<<<<<< HEAD
   "dependencies": {
     "w3ts": "^2.1.3"
   },
@@ -33,6 +34,8 @@
     "war3tstlhelper": "1.0.1",
     "winston": "3.3.3"
   },
+=======
+>>>>>>> e685868 (working)
   "watch": {
     "build:defs": {
       "patterns": [
@@ -41,5 +44,20 @@
       "extensions": "lua",
       "legacyWatch": true
     }
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "fs-extra": "^10.0.0",
+    "lua-types": "^2.11.0",
+    "luamin": "^1.0.4",
+    "mdx-m3-viewer": "^5.11.3",
+    "npm-watch": "^0.11.0",
+    "ts-node": "^10.3.1",
+    "typescript": "^4.3.5",
+    "typescript-to-lua": "^1.0.1",
+    "w3ts": "file:../w3ts",
+    "war3-transformer": "^2.1.0",
+    "war3-types-strict": "file:../war3-types-strict",
+    "winston": "^3.3.3"
   }
 }
