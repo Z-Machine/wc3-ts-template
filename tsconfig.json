@@ -41,9 +41,7 @@
       "war3-types-strict/1.32.10"
     ]
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": [],
   "tstl": {
     "luaTarget": "5.3",
