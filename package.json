@@ -30,9 +30,9 @@
     "ts-node": "^10.3.1",
     "typescript": "^4.3.5",
     "typescript-to-lua": "^1.0.1",
-    "w3ts": "file:../w3ts",
+    "w3ts": "github:Z-Machine/w3ts",
     "war3-transformer": "^2.1.0",
-    "war3-types-strict": "file:../war3-types-strict",
+    "war3-types-strict": "github:Z-Machine/war3-types-strict",
     "winston": "^3.3.3"
   }
 }
